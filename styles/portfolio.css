@@ -1,0 +1,269 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.imgbackground{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    
+    
+
+}
+
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px 200px ;
+}
+ .title{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.title .alpha{
+    color:#FD6E0A;
+}
+nav ul {
+    display:flex;
+    align-items: center;
+    
+
+}
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+}
+nav li a {
+    font-size:20px;
+    text-decoration: none;
+    
+}
+.dark-2{
+  color: #474747;;
+}
+.btn-primary{
+    background-color:#FD6E0A;
+    border:none;
+    color:#FFFFFF;
+    width:150px;
+    height:64px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin:0px 38px 0px 200px;
+    align-items:center ;
+}
+
+.banner-content{
+    width:585px;
+}
+
+.banner-greeting{
+    color: #474747;
+    font-size:45px;
+    margin:5px 0px;
+}
+.banner-title{
+    color:#181818;
+    font-size: 85px;
+    margin:0px 87px 20px 0px;
+}
+.banner-description{
+    color:#757575;
+    font-size: 18px;
+    margin:0px 0px 30px 0px;
+}
+
+.banner-image{
+    width:584px;
+   
+
+}
+.banner-image .img{
+    width:100%;
+}
+
+/*aboutme*/
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1140px;
+    margin:130px auto;
+    border-radius: 10px;
+    background-color:#FFF8F3 ;
+}
+
+.aboutme{
+    width:827px;
+    background-color:#FFFFFF;
+    text-align: center;
+    margin:130px 0px;
+}
+
+.title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+     text-align: center;
+    margin-bottom: 30px;
+}
+
+.description{
+    font-size: 18px;
+    font-weight:normal;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+
+.infos{
+    display:flex;
+    justify-content: space-around;
+}
+
+.bg-primary{
+   font-size:18px;
+    font-weight:normal;
+    color: #757575;
+}
+.bg-secondary{
+   font-size:20px;
+    font-weight:bolder;
+    color:#474747;
+}
+
+/*whatido*/
+.whatido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    max-width: 1140px;
+    margin:130px auto;
+    border-radius: 10px;
+}
+.dim{
+    max-width:909px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.experience{
+    display: flex;
+    gap:24px;
+}
+
+.know{
+    padding: 30px 30px;
+    background-color:#FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+.title1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*resume*/
+
+.resume{
+    padding:0px 200px 113px 200px;
+}
+.resume-col{
+    display:flex;
+    gap:24px;
+   
+}
+.title-res{
+ font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+     text-align: center;
+    margin-bottom: 113px;
+}
+
+.btn-ex{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.eduexperience{
+    margin:30px 0px;
+}
+.subtitle{
+    font-size: 20px;
+    color: #757575;
+    margin:10px 0px 20px 0px;
+}
+.title2{
+    font-size: 30px;
+    color: #474747;
+}
+.title3{
+    font-size: 25px;
+    color: #474747;
+}
+hr{
+    color: #D1D1D1;
+}
+
+/*footer*/
+footer{
+    background-color: #FFF8F3;
+}
+.coloumn{
+    display: flex;
+    padding:130px 230px;
+    gap: 117px;
+    justify-content:space-between ;
+    
+}
+.message{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 0px;
+}
+.des{
+    font-size: 16px;
+    color: #757575;
+    margin: 20px 0px 30px 0px;
+}
+.icon .img{
+    margin-right: 20px;
+}
+
+footer input[type="text"],footer input[type="email"]{
+    width: 100%;
+    height:64px;
+    color:#474747;
+    font-size: 16px;
+    margin: 24px 0px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    border:none;
+}
+
+textarea{
+    width: 100%;
+    color:#474747;
+    font-size: 16px;
+    margin: 24px 0px;
+    padding: 18px 30px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    border:none;
+    margin-bottom: 24px;
+}
