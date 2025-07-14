@@ -57,6 +57,16 @@ nav li a {
     font-size: 20px;
     font-weight:bold;
 }
+.btn-secondary{
+    background-color:#FFFFFF;;
+    width:180px;
+    height:64px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight:bold;
+    border: 1px solid;
+    border-color: #FD6E0A;
+}
 
 .banner{
     display: flex;
@@ -92,6 +102,13 @@ nav li a {
 }
 .banner-image .img{
     width:100%;
+}
+.btn-secondary a{
+    text-decoration: none;
+    color:#FD6E0A;
+}
+.btn-secondary a:hover{
+    color:#f43505;
 }
 
 /*aboutme*/
